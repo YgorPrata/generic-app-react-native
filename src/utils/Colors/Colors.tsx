@@ -1,0 +1,9 @@
+export const white = "#ffffff";
+export const black400 = "#000000";
+export const gray70 = "#f9fafb";
+export const gray80 = "#eef1f3";
+export const gray90 = "#d9e0e4";
+export const gray100 = "#a4b2bb";
+export const gray200 = "#587485";
+export const gray300 = "#1d2f3b";
+export const gray400 = "#16242d";
