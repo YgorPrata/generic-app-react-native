@@ -7,3 +7,5 @@ export const gray100 = "#a4b2bb";
 export const gray200 = "#587485";
 export const gray300 = "#1d2f3b";
 export const gray400 = "#16242d";
+export const blue1 = "#2D69D8";
+export const green1 = "#5AF597";

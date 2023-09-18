@@ -12,6 +12,9 @@ function Home() {
         <Title>Home screen</Title>
         <Title>Home screen</Title>
         <Title>Home screen</Title>
+        <Title>Home screen</Title>
+        <Title>Home screen</Title>
+        <Title>Home screen</Title>
       </WrapperScroll>
     </Container>
   );

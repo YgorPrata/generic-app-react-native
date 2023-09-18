@@ -1,32 +1,22 @@
 import React from 'react';
-import {TextProps} from 'react-native';
-import {Container} from './styles';
+import {TextProps, View} from 'react-native';
 
-export const icons: object = {
+const icons: any = {
   Menu: require('./Menu').default,
 };
 
 type Props = TextProps & {
   type: string;
   color: string;
-  width: string;
-  height: string;
+  width: number;
+  height: number;
 };
 
-function Icon({
-  type,
-}: // color, width, height
-Props) {
+function Icon({ type = 'Menu', color = 'red', width = 18, height = 18 }: Props) {
   const IconSvg: any = icons[type];
   if (IconSvg) {
     return (
-      <Container
-      // colors={color}
-      // width={width}
-      // height={height}
-      >
-        <IconSvg />
-      </Container>
+      <View><IconSvg color={color} width={width + 'px'} height={height + 'px'} /></View>
     );
   }
   return null;
